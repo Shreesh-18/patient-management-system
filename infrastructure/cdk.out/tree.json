@@ -1130,7 +1130,7 @@
                 },
                 "clusterName": "kafka-cluster",
                 "kafkaVersion": "2.8.0",
-                "numberOfBrokerNodes": 1
+                "numberOfBrokerNodes": 2
               }
             },
             "constructInfo": {

@@ -1,11 +1,12 @@
 ### POST request to create user
-POST http://localhost:4000/patients
+POST http://lb-b6f34ce6.elb.localhost.localstack.cloud:4004/api/patients
 Content-Type: application/json
+Authorization: Bearer {{token}}
 
 {
-  "name": "Rameshxx Stargirl",
-  "email": "lmao@yahoxx.com",
-  "address": "abcsd main st",
+  "name": "Ramefdshxx Stargirl",
+  "email": "lmaosdfsd@yahoxx.com",
+  "address": "abcsd msvdain st",
   "dateOfBirth": "1993-01-01",
   "registeredDate": "1999-01-01"
 }
